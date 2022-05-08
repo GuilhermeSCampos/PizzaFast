@@ -80,7 +80,7 @@ export const Banner = () =>{
                         mt={{base:'4rem', md:'4rem', lg:'0'}}
                        
                     >
-                        <Image src='../../../public/image/image.png'/>
+                        <Image src='../../../public/image/image.svg'/>
                     </Box>
             </Flex>
     )

@@ -21,7 +21,6 @@ export const Menu = () => {
           fontSize={{ base: "20px", md: "18px", lg: "20px" }}
           fontWeight="500"
           styleType="none"
-          color={{ base: "gray.200", md: "green.500" }}
           d="flex"
           flexDirection={{ base: "column", md: "row" }}
           gap={{ base: "4rem", md: "1rem", lg: "2rem" }}
