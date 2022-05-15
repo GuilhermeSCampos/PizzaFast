@@ -67,7 +67,7 @@ export const Contact = () =>{
                                 autoplay
                                 loop
                                 src='/animations/delivering.json'
-                                style={{ height: '30rem', width: '30rem' }}
+                                style={{ height: '24rem', width: '24rem' }}
                             >
                                   
                         </Player>
