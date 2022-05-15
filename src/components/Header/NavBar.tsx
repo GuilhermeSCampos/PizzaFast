@@ -30,7 +30,7 @@ export const NavBar = () => {
             <>
               <IconButton
                 aria-label='Open navigation'
-                icon={<Icon as={RiMenuLine} h='100%' color={colorHeader ?'gray.200':'green.500'}  />}
+                icon={<Icon as={RiMenuLine} h='100%' color={colorHeader ?'yellow.400':'red.500'}  />}
                 variant='unstyled'
                 fontSize='28px'
                 onClick={onOpen}
@@ -39,12 +39,14 @@ export const NavBar = () => {
               <Drawer isOpen={isOpen} placement='right' onClose={onClose}>
 
                 <DrawerOverlay>
-                        <DrawerContent bg='green.900'>
-                            <DrawerCloseButton mt={2} color='gray.200'/>
+                        <DrawerContent bg='gray.900'>
+                            <DrawerCloseButton mt={2} color='yellow.400'/>
                             <DrawerHeader 
                                 borderBottomWidth='2px'
-                                borderColor='green.300'>
-                                    Doctor<Text as='strong' color='green.200'>Care</Text>
+                                borderColor='yellow.300'>
+                                   <Text color='red.400'>Pizza
+                                   <Text as='strong' color='yellow.400'>Fast</Text>
+                                       </Text>
                             </DrawerHeader>
                                <DrawerBody>
                                    <Menu/>

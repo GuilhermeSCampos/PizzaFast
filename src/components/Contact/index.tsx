@@ -1,5 +1,5 @@
 import { Box, Flex,Text,Image, Icon, Button } from "@chakra-ui/react"
-
+import { Player } from '@lottiefiles/react-lottie-player';
 
 export const Contact = () =>{
       
@@ -18,7 +18,7 @@ export const Contact = () =>{
                     as='h2'
                     fontWeight='700'
                     fontSize='30px' 
-                    color='gray.600'
+                    color='red.600'
                     lineHeight='39px'
                     my='2rem'   
                     >Entre em contato com a gente!</Text>
@@ -37,24 +37,40 @@ export const Contact = () =>{
                     my='1rem'
                     gap='.7rem'    
                 >
-                    <Image src="/image/mail.svg"/>
+                    <Image src="/image/mail.svg" />
                     <Text as='p'fontWeight='400' fontSize='16px' color='gray.600'>contato@beautysalon.com</Text>
                 </Box>
                 <Button 
-                    bg='green.700'
-                    color='gray.200'
-                    p='1.7rem 1.5rem'
-                    my='1rem'
-                    _hover={{
-                        bg:'green.600'
-                    }}
-                >
-                    <Image src="/image/whatsapp.svg" alt='whatsApp' mr='.7rem'/>
-                    AGENDE SUA CONSULTA
-                </Button>
+                            bg='red.600'
+                            color='yellow.400'
+                            p='1.7rem 1.5rem'
+                            my='1rem'
+                            _hover={{
+                                bg:'red.500'
+                            }}
+                           
+                            _active={{
+                            transform: "scale( 1.05)",
+                            borderColor: "green.600",
+                            }}
+                            _focus={{
+                            boxShadow:
+                                "0 0 1px 2px red.600, 0 1px 1px rgba(0, 0, 0, .15)",
+                            }}
+                        >
+                            <Image src="/image/whatsapp.svg" alt='whatsApp' mr='.7rem'/>
+                            FAÇA SEU PEDIDO
+                        </Button>
             </Box>
             <Box my='3rem' > 
-                <Image w='400px' src="/image/contact.png"/>
+                        <Player
+                                autoplay
+                                loop
+                                src='../../../style/animations/delivering.json'
+                                style={{ height: '30rem', width: '30rem' }}
+                            >
+                                  
+                        </Player>
             </Box>
         </Flex>
     )    

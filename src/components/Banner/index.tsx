@@ -1,6 +1,11 @@
 import { Box, Flex, Link,Text,Image, Button } from "@chakra-ui/react"
+import { Player } from '@lottiefiles/react-lottie-player';
+
 
 export const Banner = () =>{
+
+   
+
     return(
         <Flex
             as='section'
@@ -19,42 +24,43 @@ export const Banner = () =>{
                     flexDirection={{base: 'column', md:'column',lg:'row'}}
                     alignItems="center"
                     justifyContent="center"
+                    gap='1.5rem'
 
                   >
                       <Text 
                         as='h4'
-                        color='green.600' 
+                        color='red.400' 
                         fontSize='14px'
                         fontWeight='600' 
                         lineHeight='21px'  
-                        >BOAS-VINDAS A DOCTORCARE 👋</Text>
+                        >BOAS-VINDAS A  PIZZAFAST 👋</Text>
                       <Text 
                         textAlign={{base:'center',lg:'initial'}}
                         as='h1'
                         fontSize={{base:'30px', md:'40px', lg:'50px'}}
                         fontWeight='bold'
-                        color='gray.700'
+                        color='yellow.500'
                         
                         
-                        >Assistência médica simplificada para todos</Text>
+                        >A Pizzaria com a entraga mais rapida da cidade!</Text>
                       <Text 
                         as='p'
                         textAlign={{base:'center',lg:'initial'}}
-                        color='gray.500'
+                        color='yellow.400'
                         fontSize='18px'
                         fontWeight='400'
                         lineHeight='27px'
                         mt='24px'
                         mb='32px'
-                        >Os médicos da DoctorCare vão além dos sintomas para tratar a causa<br/> raiz de sua doença e proporcionar uma cura a longo prazo.</Text>  
+                        >Faça seu pedido na PizzaFast, a pizzaria com a entrega mais rápida da cidade,<br/> e que oferece +30  sabores de pizzas</Text>  
 
                       <Button 
-                            bg='green.700'
-                            color='gray.200'
+                            bg='red.700'
+                            color='yellow.400'
                             p='1.7rem 1.5rem'
                             my='1rem'
                             _hover={{
-                                bg:'green.600'
+                                bg:'red.600'
                             }}
                            
                             _active={{
@@ -67,7 +73,7 @@ export const Banner = () =>{
                             }}
                         >
                             <Image src="/image/whatsapp.svg" alt='whatsApp' mr='.7rem'/>
-                            AGENDE SUA CONSULTA
+                            FAÇA SEU PEDIDO
                         </Button>
                   
 
@@ -80,7 +86,14 @@ export const Banner = () =>{
                         mt={{base:'4rem', md:'4rem', lg:'0'}}
                        
                     >
-                        <Image src='/image/image.svg'/>
+                         <Player
+                                autoplay
+                                loop
+                                src='../../../style/animations/home.json'
+                                style={{ height: '28rem', width: '28rem' }}
+                            >
+                                  
+                        </Player>
                     </Box>
             </Flex>
     )

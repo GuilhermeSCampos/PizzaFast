@@ -5,7 +5,7 @@ export const Footer = () =>{
     return(
         <Flex
             flexDirection={{base: 'column', md:'row'}}
-            bg='green.700'
+            bg='gray.900'
             justify={{base:'flex-start', md:'space-between'}}
             align={{base:'flex-start', md:'center'}}
             px='3rem'
@@ -20,7 +20,7 @@ export const Footer = () =>{
                 justifyContent='center'
                 mt={{base:'2rem',md:'0'}}
                 >
-                <Text as='h2' fontSize='32px' >Doctor<Text as='strong'>Care</Text></Text>
+                <Text as='h2' fontSize='32px' color='red.500'>Pizza<Text color='yellow.400' as='strong'>Fast</Text></Text>
                 <Text as='span'>©2021 Beautysalon.</Text>
                 <Text as='p' mt='1rem'>Todos os direitos reservados.</Text>
             </Box>

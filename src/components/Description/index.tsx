@@ -5,10 +5,8 @@ export const Description = () => {
         
         <Box 
             zIndex="10" 
-            maxW="1200px" 
-            position="relative"
-            right="0"
-            left="0"
+            w='100%' 
+            
             bottom={{base:'5rem',md:"5rem"}}
             mx="auto" 
               
@@ -17,7 +15,7 @@ export const Description = () => {
         
         flexDirection={{base: 'column', md:'row'}}
        
-        mx='1rem'
+        
         bg="yellow.50"
         align="center"
         justify="center"
@@ -31,17 +29,17 @@ export const Description = () => {
             alignItems="center"
             justifyContent="center"
             borderRight={{base:'', md:'2px solid'}}
-            borderColor='green.200'
+            borderColor='red.600'
             
             w='100%'
         >
           <Text
             fontSize='48px'
             fontWeight='bold'
-            color='gray.600'
-          >+3.500</Text>
+            color='gray.900'
+          >+8.500</Text>
           
-            <Text  as="span" color="green.500" fontWeight='500'>Pacientes atendidos</Text>
+            <Text  as="span" color="red.600" fontWeight='500'>Clientes atendidos</Text>
             
         </Box>
         <Box
@@ -50,14 +48,14 @@ export const Description = () => {
             alignItems="center"
             justifyContent="center"
             borderRight={{base:'', md:'2px solid'}}
-            borderColor='green.200'
+            borderColor='red.600'
             w='100%'
 
         >
           <Text fontSize='48px'
             fontWeight='bold'
-            color='gray.600'>+15</Text>
-          <Text as="span" color="green.500" fontWeight='500'>Especialistas disponíveis</Text>
+            color='gray.900'>+15</Text>
+          <Text as="span" color="red.600" fontWeight='500'>Entregadores disponíveis</Text>
         </Box>
         <Box
             d='flex'
@@ -70,8 +68,8 @@ export const Description = () => {
         >
           <Text fontSize='48px'
             fontWeight='bold'
-            color='gray.600'>+10</Text>
-          <Text as="span" color="green.500" fontWeight='500'>Anos no mercado</Text>
+            color='gray.900'>+10</Text>
+          <Text as="span" color="red.600" fontWeight='500'>Anos no mercado</Text>
         </Box>
       </Flex>
     </Box>

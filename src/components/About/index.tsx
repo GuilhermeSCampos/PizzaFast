@@ -1,12 +1,12 @@
 import { Box,Text,Image, Flex  } from "@chakra-ui/react"
-
+import { Player } from '@lottiefiles/react-lottie-player';
 
 
 export const About = () => {
     return(
 
         <Box
-            bg="yellow.50" 
+            bg="gray.900" 
             px='1.5rem'
             py='7rem'   
             >
@@ -22,15 +22,22 @@ export const About = () => {
             >
                 <Box>
 
-                    <Image w='400px' src="/image/Pic.png"/>
+                    <Player
+                                autoplay
+                                loop
+                                src='../../../style/animations/pizza.json'
+                                style={{ height: '28rem', width: '28rem' }}
+                            >
+                                  
+                        </Player>
                 </Box>
                 <Box
                 w={{base:'100%',md:'50%'}}
                 >
                     <Text 
                 as='h4'
-                color='green.600'
-                fontSize='14px'
+                color='red.500'
+                fontSize='18px'
                 fontWeight='bold'
                 lineHeight='24px'
                
@@ -38,7 +45,7 @@ export const About = () => {
                 >SOBRE NOS</Text>
             <Text 
                 as='h2'
-                color='gray.600'
+                color='yellow.500'
                 fontSize='30px'
                 fontWeight='700'
                 lineHeight='36px'
@@ -48,7 +55,7 @@ export const About = () => {
 
                 <Text 
                     as='p'
-                    color='gray.700'
+                    color='yellow.600'
                     fontSize='16px'
                     fontWeight='400'
                     

@@ -22,8 +22,9 @@ export const Header = () => {
         zIndex="110"
         w="100%"
         position="fixed"
-        bg={colorHeader ? "green.700" : "transparent"}
+        bg={colorHeader ? "gray.900" : "transparent"}
         transition="smooth"
+       
       >
         <Box
           alignItems="center"
@@ -36,13 +37,13 @@ export const Header = () => {
         >
           <Text
             as="h2"
-            color={colorHeader ? "gray.200" : "gray.700"}
+            color='red.400'
             fontSize="25px"
             fontWeight="500"
           >
-            Doctor
-            <Text as="strong" color={colorHeader ? "green.200" : "green.700"}>
-              Care
+            Pizza
+            <Text as="strong" color="yellow.400">
+              Fast
             </Text>
           </Text>
 
@@ -50,7 +51,11 @@ export const Header = () => {
         </Box>
       </Heading>
 
-      <Box bg="blue.200" w="100%" h="100%" pt="5rem">
+      <Box   
+        w="100%" 
+        h="100%" pt={{base:'5rem', md:"8rem"}} zIndex='-1'
+        bg='gray.900'
+        >
         <Banner />
       </Box>
     </>
