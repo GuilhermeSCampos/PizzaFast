@@ -5,7 +5,10 @@
 <p align="center">Projeto de uma Home page de uma pizzaria desenvolvido para fins de estudo</p>
 
 
-pizzaFast.mp4
+
+
+https://user-images.githubusercontent.com/59948274/168453212-556595b5-a439-4026-a072-92eede405cb0.mp4
+
 
 
 
