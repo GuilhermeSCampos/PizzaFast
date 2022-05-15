@@ -89,7 +89,7 @@ export const Banner = () =>{
                          <Player
                                 autoplay
                                 loop
-                                src='style/animations/home.json'
+                                src='/animations/home.json'
                                 style={{ height: '28rem', width: '28rem' }}
                             >
                                   

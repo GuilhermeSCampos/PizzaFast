@@ -25,7 +25,7 @@ export const About = () => {
                     <Player
                                 autoplay
                                 loop
-                                src='/style/animations/pizza.json'
+                                src='/animations/pizza.json'
                                 style={{ height: '28rem', width: '28rem' }}
                             >
                                   
