@@ -36,7 +36,7 @@ export const NavBar = () => {
                 onClick={onOpen}
               />  
 
-              <Drawer isOpen={isOpen} placement='right' onClose={onClose}>
+              <Drawer isOpen={isOpen} placement='right' onClose={onClose} size='md'>
 
                 <DrawerOverlay>
                         <DrawerContent bg='gray.900'>
