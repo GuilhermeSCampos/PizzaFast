@@ -1,0 +1,46 @@
+{
+    "name": "PizzaFast",
+    "short_description": "Projeto de uma Home page de uma pizzaria desenvolvido para fins de estudo",
+    "description": "Projeto foi realizado na semana Nlw Return pela Rocketseat",
+    
+    "link_preview": "https://doctor-care-khaki.vercel.app", 
+    
+    "techs": [
+      {
+        "name": "React.js",
+        "url": "https://reactjs.org"
+      },
+      {
+        "name":"Vite",
+        "url": "https://vitejs.dev"
+      },
+      {
+          "name":"Chakra ui",
+          "url":"https://chakra-ui.com"
+      },
+      
+      {
+        "name":"TypeScript",
+        "url":"https://www.typescriptlang.org"
+      },
+
+      {
+          "name":"Lottiefiles",
+          "url":"https://lottiefiles.com"
+      }
+      
+    ],
+    "videos":[
+        "https://raw.githubusercontent.com/ganimedes96/PizzaFast/main/.github/pizzaFast.mp4"
+    ],
+    "images": [
+     "https://raw.githubusercontent.com/ganimedes96/PizzaFast/main/.github/image.jpg"
+    
+
+     
+       
+      
+    
+    ]
+    
+    }
