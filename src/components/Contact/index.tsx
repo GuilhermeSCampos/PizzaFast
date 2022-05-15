@@ -66,7 +66,7 @@ export const Contact = () =>{
                         <Player
                                 autoplay
                                 loop
-                                src='../../../style/animations/delivering.json'
+                                src='/style/animations/delivering.json'
                                 style={{ height: '30rem', width: '30rem' }}
                             >
                                   
