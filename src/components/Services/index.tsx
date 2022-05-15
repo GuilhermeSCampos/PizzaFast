@@ -2,38 +2,38 @@ import { Box, Flex, Grid, GridItem, Text, Image, Button } from "@chakra-ui/react
 
 const cardsService = [
   {
-    image: 'src/assets/pizza.png',
+    image: '/assets/pizza.png',
     title: "Muçarela",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.",
   },
   {
-    image: 'src/assets/pizza10.png',
+    image: '/assets/pizza10.png',
     title: "Bacon",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.",
   },
   {
-    image: 'src/assets/pizza3.png',
+    image: '/assets/pizza3.png',
     title: "Camarao",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.",
   },
   {
 
-    image: 'src/assets/pizza8.png',
+    image: '/assets/pizza8.png',
     title: "Chocolate",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.",
   },
   {
-    image: 'src/assets/pizza5.png',
+    image: '/assets/pizza5.png',
     title: "Portuguesa",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.",
   },
   {
-    image: 'src/assets/pizza6.png',
+    image: '/assets/pizza6.png',
     title: "Nordestina",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.",
