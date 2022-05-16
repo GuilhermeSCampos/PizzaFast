@@ -42,7 +42,7 @@ export const Banner = () =>{
                         color='yellow.500'
                         
                         
-                        >A Pizzaria com a entraga mais rapida da cidade!</Text>
+                        >A Pizzaria com a entrega mais rápida  da cidade!</Text>
                       <Text 
                         as='p'
                         textAlign={{base:'center',lg:'initial'}}
