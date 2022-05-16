@@ -60,7 +60,7 @@ $ yarn dev
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork ganimedes96/Dashgo
+$ gh repo fork ganimedes96/PizzaFast
 ```
 
 **Follow the steps below**
