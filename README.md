@@ -39,7 +39,7 @@ Technologies that I used to develop this web client
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/ganimdes96/PizzaFast.git && cd Dashgo
+$ git clone https://github.com/ganimdes96/PizzaFast.git && cd PizzaFast
 ```
 
 **Follow the steps below**
